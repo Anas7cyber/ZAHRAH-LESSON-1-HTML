@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The palindrome app (made using JS)</title>
+    </head>
+    <body>
+        <h1 class="title">Palindrome</h1>
+        <p id="currentTime"></p>
+
+        <script>
+            function palindrome(Mystring){
+                var input = Mystring.replace(/[^A-Z0-9]/ig,"").toLowerCase();
+
+                var reversedInput = input.split('').reverse().join('');
+                if (input === reversedInput){
+                    document.write("<div>" + Mystring + " is a Palindrome <div>")
+                }
+                else{
+                    document.write("<div>" + Mystring + " is not a Palindrome <div>")
+                }
+            }
+            palindrome("hello")
+        </script>
+    </body>
+</html>
