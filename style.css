@@ -1,0 +1,68 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.topnav {
+    overflow: hidden;
+    background-color:black;
+}
+.topnav a {
+    float: left;
+    color: cyan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: white;
+    color:fuchsia;
+}
+.topnav a.active {
+    background-color: yellow;
+    color:rebeccapurple;
+}
+
+.home {
+    height:80px;
+    background-color: black;
+    color:bisque;
+    padding-top: 30px;
+    padding-left:35px;
+}
+
+.firstpage {
+    background-image: url(Enid\ bloyton.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secondpage {
+    background-image: url(Famous\ Five\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .about {
+    margin-top: 350px;
+    position: bottom;
+    height: 100px;
+    background-color: black;
+    color:antiquewhite;
+    padding-left: 30px;
+ }
+
+ .gall {
+    background-color: ivory;
+ }
+
+ .con {
+    background-image: url(Enid\ bloyton.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:cornsilk;
+ }
