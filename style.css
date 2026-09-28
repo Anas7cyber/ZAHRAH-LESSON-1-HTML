@@ -60,9 +60,17 @@ body {
     background-color: ivory;
  }
 
+img {
+    height: 200px;
+    width: 200px;
+}
  .con {
-    background-image: url(Enid\ bloyton.jpg);
+    background-image: url(Enid\ bloyton\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color:cornsilk;
  }
+ .regis {
+    background-image: url(blue\ background.jpg);
+ }
+ 
